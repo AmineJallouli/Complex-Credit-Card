@@ -36,3 +36,71 @@
     transform: rotate(360deg);
   }
 }
+
+.myCard{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.Card{
+  background-image: url("https://image.freepik.com/vecteurs-libre/abstrait-pluie-pixel_23-2148381456.jpg");
+  width:450px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+h1{
+  margin-left:180px;
+}
+
+.sim{
+    position: absolute;
+    left: 140px;
+    width: 200px;
+    top: 20px;
+}
+
+.master{
+  width: 100px;
+    position: absolute;
+    left: 510px;
+    top:210px;
+}
+
+.number{
+    font-size: 40px;
+    position: absolute;
+    top: 130px;
+    left: 210px;
+}
+
+p{
+    position: absolute;
+    top: 215px;
+    font-size: 25px;
+    left: 210px;
+}
+
+.Edit{
+    display: flex;
+    height: 30px;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+h4{
+    position: absolute;
+    top: 140px;
+    left: 430px;
+    font-size: 25px;
+}
+
+input{
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.date{
+  height: 20px;
+}
